@@ -203,34 +203,36 @@ console.log("- Ejercicio 10");
 
 // --------------  Ejercicio N°11  --------------;
 console.log("- Ejercicio 11");
-// let colorElegido = prompt("Elija un color:");
-// function eleccionColor() {
-//     switch (colorElegido) {
-//         case "Blanco":
-//         case "Negro":
-//             console.log("Falta de color.");
-//             break;
-//         case "Verde":
-//             console.log("El color de la naturaleza.");
-//             break;
-//         case "Azul":
-//             console.log("El color del agua.");
-//             break;
-//         case "Amarillo":
-//             console.log("El color del sol.");
-//             break;
-//         case "Rojo":
-//             console.log("El color del fuego.");
-//             break;
-//         case "Marron":
-//             console.log("El color de la tierra.");
-//             break;
-//         default:
-//             console.log("Excelente eleccion, no lo teniamos pensado.");
-//             break;
-//     }
-// }
-// eleccionColor();
+let colorElegido = prompt("Elija un color:");
+function eleccionColor() {
+    switch (colorElegido) {
+        case "Blanco":
+            console.log("Falta de color.");
+            break;
+        case "Negro":
+            console.log("Falta de color.");
+            break;
+        case "Verde":
+            console.log("El color de la naturaleza.");
+            break;
+        case "Azul":
+            console.log("El color del agua.");
+            break;
+        case "Amarillo":
+            console.log("El color del sol.");
+            break;
+        case "Rojo":
+            console.log("El color del fuego.");
+            break;
+        case "Marron":
+            console.log("El color de la tierra.");
+            break;
+        default:
+            console.log("Excelente eleccion, no lo teniamos pensado.");
+            break;
+    }
+}
+eleccionColor();
 
 // --------------  Ejercicio N°12  --------------;
 console.log("- Ejercicio 12");
