@@ -28,7 +28,7 @@ console.log("- Ejercicio 3");
 //     suma += numeroIngresado;
 //     numeroIngresado = parseInt(prompt("Ingresa otro número o ingresa 0 para finalizar:"));
 // };
-// console.log(`La suma de lo numeros ingresados hasta el momento es ${suma}`)
+// console.log(`La suma de lo numeros ingresados hasta el momento es ${suma}`);
 
 // --------------  Ejercicio N°4  --------------;
 console.log("- Ejercicio 4");
@@ -38,26 +38,25 @@ console.log("- Ejercicio 4");
 //     suma += numeroIngresado;
 //     numeroIngresado = parseInt(prompt("Ingresa otro número o ingresa 0 para finalizar:"));
 // } while (numeroIngresado !== 0);
-// console.log(`La suma de lo numeros ingresados hasta el momento es ${suma}`)
+// console.log(`La suma de lo numeros ingresados hasta el momento es ${suma}`);
 
 // --------------  Ejercicio N°5  --------------;
 console.log("- Ejercicio 5");
-// let nuevoNumero =Number(prompt(`Ingresa un numero entre 1 y 10:`));
+// let nuevoNumero = Number(prompt(`Ingresa un numero entre 1 y 10:`));
 // let intentos = 0;
-// do {    
+// do {
 //     if (nuevoNumero > suma) {
 //         console.log(`El numero ingresado es mayor que el numero secreto`);
-//         nuevoNumero = Number(prompt(`El numero ingresado es mayor que el numero secreto, ingresa un numero entre 1 y 10:`))
+//         nuevoNumero = Number(prompt(`El numero ingresado es mayor que el numero secreto, ingresa un numero entre 1 y 10:`));
 //         intentos++
 //     } else if (nuevoNumero < suma) {
 //         console.log(`El numero ingresado es menor que el numero secreto`);
-//         nuevoNumero = Number(prompt(`El numero ingresado es menor que el numero secreto, ingresa un numero entre 1 y 10:`))
+//         nuevoNumero = Number(prompt(`El numero ingresado es menor que el numero secreto, ingresa un numero entre 1 y 10:`));
 //         intentos++
 //     } else {
-//         console.log(`Adivinaste! el numero secreto es ${suma} en ${intentos} intentos`)
-//     }
+//         console.log(`Adivinaste! el numero secreto es ${suma} en ${intentos} intentos`);
+//     };
 // } while (nuevoNumero !== suma);
-
 
 // --------------  Ejercicio N°6  --------------;
 console.log("- Ejercicio 6");
@@ -71,14 +70,14 @@ console.log("- Ejercicio 6");
 // --------------  Ejercicio N°7  --------------;
 console.log("- Ejercicio 7");
 // let colores = ["Rojo", "Verde", "Azul", "Violeta", "Amarillo", "Celeste", "Naranja", "Rosa"];
-// for( color of colores){
-//     console.log(color)
+// for (color of colores) {
+//     console.log(color);
 // };
 
 // --------------  Ejercicio N°8  --------------;
 console.log("- Ejercicio 8");
 // let numeros = [5, 7, 10, 13, 17];
-// for ( numero of numeros){
+// for (numero of numeros) {
 //     console.log(`El numero es ${numero} y su doble es ${numero * 2}`);
 // };
 
@@ -122,16 +121,48 @@ console.log("- Ejercicio 9");
 
 // --------------  Ejercicio N°10  --------------;
 console.log("- Ejercicio 10");
-
+// let estudiante = {
+//     nombre: "Isaac",
+//     apellido: "Alfonso",
+//     esArgentino: true,
+//     edad: 32,
+//     estudios: "Universitario en curso"
+// };
+// for (let propiedad in estudiante) {
+//     console.log(propiedad);
+// };
 
 // --------------  Ejercicio N°11  --------------;
 console.log("- Ejercicio 11");
-
+for (propiedad in estudiante) {
+    console.log(estudiante[propiedad]);
+};
 
 // --------------  Ejercicio N°12  --------------;
 console.log("- Ejercicio 12");
-
+// let nuevoNumero = parseInt(prompt(`Ingrese un numero`));
+// let sumaNumPar = 0;
+// let sumaNumImpar = 0;
+// do {
+//     nuevoNumero = parseInt(prompt(`Ingrese un nuevo numero`));
+//     if (nuevoNumero !== 0) {
+//         if (nuevoNumero % 2 === 0) {
+//             sumaNumPar += 1;
+//         } else {
+//             sumaNumImpar += 1
+//         };
+//     };
+// } while (nuevoNumero !== 0);
+// console.log(`La suma de los numeros pares es: ${sumaNumPar}`);
+// console.log(`La suma de los numeros impares es: ${sumaNumImpar}`);
 
 // --------------  Ejercicio N°13  --------------;
 console.log("- Ejercicio 13");
-
+// let numeros = [229, 59, 532, 777, 53, 74, 152, 462, 625, 439, 328];
+// let mayorNumero = 0;
+// for (let i = 1; i < numeros.length; i++) {
+//     if (numeros[i] > mayorNumero) {
+//         mayorNumero = numeros[i];
+//     };
+// };
+// console.log(`El numero mas grande es: ${mayorNumero}`);

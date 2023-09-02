@@ -55,10 +55,13 @@ let tercerNum = 0;
 function menorNum(primerNum, segundoNum, tercerNum) {
     if (primerNum <= segundoNum && primerNum <= tercerNum) {
         console.log("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + primerNum + " es el menor");
+        alert("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + primerNum + " es el menor");
     } else if (segundoNum <= primerNum && segundoNum <= tercerNum) {
         console.log("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + segundoNum + " es el menor");
+        alert("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + segundoNum + " es el menor");
     } else {
         console.log("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + tercerNum + " es el menor");
+        alert("Entre los numeros " + primerNum + ", " + segundoNum + " y " + tercerNum + ", el numero " + tercerNum + " es el menor");
     };
 };
 menorNum(1, 2, 3);

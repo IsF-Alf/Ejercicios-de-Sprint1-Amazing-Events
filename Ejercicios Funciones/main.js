@@ -72,10 +72,10 @@ function esMayorDeEdad(edad) {
 esMayorDeEdad(18);
 esMayorDeEdad(30);
 esMayorDeEdad(17);
-
+    
 // --------------  Ejercicio N°6  --------------;
 console.log("- Ejercicio 6");
-let ingresoAnual = 0;
+// let ingresoAnual = 0;
 function calcularImpuesto(ingresoAnual) {
     if (ingresoAnual <= 10000) {
         console.log("Al ser el ingreso anual de $" + ingresoAnual + " tiene un interes del 10% por lo que deberá pagar $" + ingresoAnual * 1.1);
