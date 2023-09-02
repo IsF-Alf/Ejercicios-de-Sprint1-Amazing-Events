@@ -84,41 +84,41 @@ console.log("- Ejercicio 8");
 
 // --------------  Ejercicio N°9  --------------;
 console.log("- Ejercicio 9");
-let grupoFamiliar = [
-    {
-        nombre: "Laura",
-        edad: 58,
-        integrante: "Madre",
-        gusto: "las plantas",
-    },
-    {
-        nombre: "Mariana",
-        edad: 28,
-        integrante: "Hermana",
-        gusto: "cocinar",
-    },
-    {
-        nombre: "Belen",
-        edad: 26,
-        integrante: "Hermana",
-        gusto: "los gatos",
-    },
-    {
-        nombre: "Rebeca",
-        edad: 3,
-        integrante: "Sobrina",
-        gusto: "jugar",
-    },
-    {
-        nombre: "David",
-        edad: 20,
-        integrante: "Hermano",
-        gusto: "andar en bicicleta",
-    }
-]
-for (miembro of grupoFamiliar) {
-    console.log(`Hola soy ${miembro.nombre} y tengo ${miembro.edad} años, soy el/la ${miembro.integrante} y me gusta ${miembro.gusto}`);
-};
+// let grupoFamiliar = [
+//     {
+//         nombre: "Laura",
+//         edad: 58,
+//         integrante: "Madre",
+//         gusto: "las plantas",
+//     },
+//     {
+//         nombre: "Mariana",
+//         edad: 28,
+//         integrante: "Hermana",
+//         gusto: "cocinar",
+//     },
+//     {
+//         nombre: "Belen",
+//         edad: 26,
+//         integrante: "Hermana",
+//         gusto: "los gatos",
+//     },
+//     {
+//         nombre: "Rebeca",
+//         edad: 3,
+//         integrante: "Sobrina",
+//         gusto: "jugar",
+//     },
+//     {
+//         nombre: "David",
+//         edad: 20,
+//         integrante: "Hermano",
+//         gusto: "andar en bicicleta",
+//     }
+// ]
+// for (miembro of grupoFamiliar) {
+//     console.log(`Hola soy ${miembro.nombre} y tengo ${miembro.edad} años, soy el/la ${miembro.integrante} y me gusta ${miembro.gusto}`);
+// };
 
 // --------------  Ejercicio N°10  --------------;
 console.log("- Ejercicio 10");
