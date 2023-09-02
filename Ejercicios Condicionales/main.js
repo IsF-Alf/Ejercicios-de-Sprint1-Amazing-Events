@@ -236,56 +236,56 @@ console.log("- Ejercicio 11");
 
 // --------------  Ejercicio N°12  --------------;
 console.log("- Ejercicio 12");
-// let numeroUno = parseInt(prompt("Ingresa el primer numero"));
-// let numeroDos = parseInt(prompt("Ingresa el segundo numero"));
-// let operacion = prompt("Suma, Resta, Multiplicacion y/o Division");
-// function suma(num1, num2, oper) {
+// let numUno = parseInt(prompt("Ingresa el primer numero"));
+// let numDos = parseInt(prompt("Ingresa el segundo numero"));
+// let oper = prompt("Suma, Resta, Multiplicacion y/o Division");
+// function suma(numUno, numDos, oper) {
 //     if (oper === "Suma") {
-//         console.log("La suma de " + num1 + " y " + num2 + " es " + num1 + num2);
+//         console.log(`La suma de ${numUno} y ${numDos} es ${numUno + numDos}`);
 //     };
 // };
-// function resta(num1, num2, oper) {
+// function resta(numUno, numDos, oper) {
 //     if (oper === "Resta") {
-//         console.log("La resta de " + num1 + " y " + num2 + " es " + num1 + num2);
+//         console.log("La resta de " + numUno + " y " + numDos + " es " + numUno + numDos);
 //     };
 // };
-// function multiplicacion(num1, num2, oper) {
+// function multiplicacion(numUno, numDos, oper) {
 //     if (oper === "Multiplicacion") {
-//         console.log("El producto de " + num1 + " y " + num2 + " es " + num1 * num2);
+//         console.log("El producto de " + numUno + " y " + numDos + " es " + numUno * numDos);
 //     };
 // };
-// function division(num1, num2, oper) {
+// function division(numUno, numDos, oper) {
 //     if (oper === "Division") {
-//         if (num2 !== 0) {
-//             console.log("El cociente de " + num1 + " y " + num2 + " es " + num1 / num2);
+//         if (numDos !== 0) {
+//             console.log("El cociente de " + numUno + " y " + numDos + " es " + numUno / numDos);
 //         } else {
 //             console.log("Error el divisor ingresado es CERO");
 //         };
 //     };
 // };
-// suma(numeroUno, numeroDos, operacion);
-// resta(numeroUno, numeroDos, operacion);
-// multiplicacion(numeroUno, numeroDos, operacion);
-// division(numeroUno, numeroDos, operacion);
+// suma(numUno, numDos, oper);
+// resta(numUno, numDos, oper);
+// multiplicacion(numUno, numDos, oper);
+// division(numUno, numDos, oper);
 
 // --------------  Ejercicio N°13  --------------;
 console.log("- Ejercicio 13");
-let nombre = prompt("Ingresa tu nombre");
-let apellido = prompt("Ingresa tu apellido");
-let documento = parseInt(prompt("Ingresa tu numero de documento"));
-function verificaDatos() {
-    let datosIngresados = {
-        nombre: nombre,
-        apellido: apellido,
-        documento: documento,
-    };
-    console.log(datosIngresados);
-    let confirmando = prompt("Son correctos estos datos? Si o No");
-    if (confirmando === "Si") {
-        console.table(datosIngresados);
-        console.log("Hola " + datosIngresados.nombre + " " + datosIngresados.apellido + " tu registro fue exitoso");
-    } else {
-        console.log(datosIngresados.nombre + " vuelve a intentarlo en un mes");
-    };
-};
-verificaDatos();
+// let nombre = prompt("Ingresa tu nombre");
+// let apellido = prompt("Ingresa tu apellido");
+// let documento = parseInt(prompt("Ingresa tu numero de documento"));
+// function verificaDatos() {
+//     let datosIngresados = {
+//         nombre: nombre,
+//         apellido: apellido,
+//         documento: documento,
+//     };
+//     console.log(datosIngresados);
+//     let confirmando = prompt("Son correctos estos datos? Si o No");
+//     if (confirmando === "Si") {
+//         console.table(datosIngresados);
+//         console.log("Hola " + datosIngresados.nombre + " " + datosIngresados.apellido + " tu registro fue exitoso");
+//     } else {
+//         console.log(datosIngresados.nombre + " vuelve a intentarlo en un mes");
+//     };
+// };
+// verificaDatos();
