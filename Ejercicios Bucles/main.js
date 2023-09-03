@@ -134,9 +134,9 @@ console.log("- Ejercicio 10");
 
 // --------------  Ejercicio N°11  --------------;
 console.log("- Ejercicio 11");
-for (propiedad in estudiante) {
-    console.log(estudiante[propiedad]);
-};
+// for (propiedad in estudiante) {
+//     console.log(estudiante[propiedad]);
+// };
 
 // --------------  Ejercicio N°12  --------------;
 console.log("- Ejercicio 12");
