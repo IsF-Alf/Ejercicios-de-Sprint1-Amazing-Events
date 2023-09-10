@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedorPrin {
+    text-align: center;
+}
+
+.cubo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 10px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
